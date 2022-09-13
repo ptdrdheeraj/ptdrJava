@@ -13,6 +13,7 @@ public class Array2d {
 			
 		}System.out.println();
 		System.out.println();
+		System.out.println();
 	
 	
 	
