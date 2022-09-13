@@ -12,8 +12,7 @@ public class Array2d {
 		System.out.print(arr[i][j]+"\t");
 			
 		}System.out.println();
-		System.out.println();
-		System.out.println();
+		
 	
 	
 	
