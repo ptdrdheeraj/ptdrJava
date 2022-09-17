@@ -5,8 +5,9 @@ public class Dateclass {
 	
 	public static void main(String[]args) {
 	
-	Date d = new Date ();
-	System.out.println(d);
+	    Date d = new Date ();
+	    
+	
 	
 	
 	
