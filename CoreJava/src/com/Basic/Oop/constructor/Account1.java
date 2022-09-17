@@ -39,7 +39,7 @@ public class Account1 {
 	public void Deposit(double amount) {
 		 
 		balance  = balance+amount;
-		System.out.println("deposit successfull and balance is "+balance  );
+		System.out.println("deposit successfull and balance is acccount a "+balance  );
 	}
 
     public void FundTransfer(Account1 a ,double amount,Account1 b) {
