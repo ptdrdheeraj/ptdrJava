@@ -1,6 +1,6 @@
 package com.Basic.oopinheritance;
 
-public class Rectangle {
+public class Rectangle extends Shapein{
 	
 	private int Length;
 	private int width;
