@@ -4,7 +4,7 @@ public class Circle extends Shape {
 	
 	private int radious;
     
-    public  Circle() {}
+    public  Circle() {}//default Constructor
     
 	public Circle(int r) {
 		
