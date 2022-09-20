@@ -5,7 +5,7 @@ public class Rectangle extends Shape{
 	private int wid;
 	
 	
-	public Rectangle() {}
+	public Rectangle() {}//default constructor
 	public Rectangle(int l,int w) {
 	        len = l;
 			wid = w;

@@ -9,9 +9,9 @@ public class TextPerson1 {
 	public static void main(String [] args) throws ParseException {
 		
 		SimpleDateFormat sf = new SimpleDateFormat("dd/MM/yyyy");
-		Date d= sf.parse("13/09/1999");
+		Date d= sf.parse("13/09/1998");
 		
-		person1 p = new person1("dhiraj", "indore",d);
+		person1 p = new person1("dheeraj", "indore",d);
 		
 		person1 p1 = new person1("abhishek", "bhopal");
 		

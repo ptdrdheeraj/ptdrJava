@@ -3,23 +3,23 @@ package com.Basic.Polymor.Oop;
 public class Square extends Shape {
 	
 	private int side;
-	private int side1;
+	private int wide;
 	
 	public Square() {}
 	
 	public Square(int l,int w) {
 		side = l;
-		side1 = w;
+		wide = w;
 		
 	}
 	public int getside() {
 		return side;
 	}
 	public int getside1() {
-		return side1;
+		return wide;
 	}
 	public double getArea() {
-		double d = side*side1;
+		double d = side*wide;
 		return d;
 	}
 	
