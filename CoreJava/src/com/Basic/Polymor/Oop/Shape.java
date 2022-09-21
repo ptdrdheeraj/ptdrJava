@@ -20,13 +20,13 @@ public class Shape {
 	  public int getborderwidth() {
 		  return borderwidth;
 	  }
-	  public double getArea() { //overriding >> method same in parent and child class
+	  public  double  getArea() {//overriding >> method same in parent and child class
+	      return  0;
 	      
-	      return 0;
 	  }
 
-
-    }
+}
+    
 	
 
 

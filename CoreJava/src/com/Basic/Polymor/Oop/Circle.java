@@ -1,6 +1,6 @@
 package com.Basic.Polymor.Oop;
 
-public class Circle extends Shape {
+public final class Circle extends Shape {
 	
 	private int radious;
     

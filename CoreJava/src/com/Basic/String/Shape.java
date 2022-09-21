@@ -1,10 +1,10 @@
 package com.Basic.String;
 
-public class Shape {
+public  class Shape {
 	
 	private int borderwidth;
 	private String colour;
-	public static final float PI = 3.14f;
+	public static final float PI = 3.14f;//final attributes 
 	
 	public Shape() {}
 	
@@ -20,7 +20,7 @@ public class Shape {
 	public String getcolour() {
 		return colour;
 	}
-	public double getArea() {
+	public double getArea() { 
 		return 0;
 	}
 

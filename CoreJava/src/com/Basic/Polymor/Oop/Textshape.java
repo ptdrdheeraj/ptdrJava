@@ -25,15 +25,17 @@ public class Textshape {
 		Shape[] s = new Shape[4];
 		s[0] = getshape(1);
 		s[1] = getshape(2);
-		s[2] = getshape(3);
-		s[3] = getshape(4);
+	    s[2] = getshape(3);
+	    s[3] = getshape(4);
 		
+	    //s[3] = getshape(5);//print null in get shape because condition not match,so s[null] = ? 
+			
 		System.out.println("Return type AREA "+s[1].getArea());
 		System.out.println("Return type AREA "+s[2].getArea());
 		System.out.println("Return type AREA "+s[3].getArea());
 		System.out.println("Return type AREA "+s[0].getArea());
-		System.out.println();
-		
+		//System.out.println("yyy"+s[4].getArea());
+		//System.out.println("kkkkkkkkkkkkk"+getshape(5));
         double total= 0;
 		Shape [] arr = new Shape[4];
 		arr[0] = new Circle(5);
@@ -57,6 +59,7 @@ public class Textshape {
 			if(i==2) return new Rectangle(5,4);
 		    if(i==3) return new Triangle(4,5);		
 			if(i==4) return new Square(4,4);
+			
 			return null;
 		}
 		
