@@ -11,6 +11,7 @@ public class TextAccount1 {
 		System.out.println(a.getNumber());
 		System.out.println(a.getAccounttype());
 		System.out.println("balance is "+a.getBalance());
+		
 		Account1 b = new Account1("456789123",500.00);
 		System.out.println(b.getNumber());
 		System.out.println("balance is "+b.getBalance());

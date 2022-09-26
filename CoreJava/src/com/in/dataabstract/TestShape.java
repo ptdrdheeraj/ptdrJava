@@ -4,7 +4,7 @@ public class TestShape {
 
 	public static void main (String []args) {
 		
-		Shape s = new SemiCircle(10);
+		Shape s = new SemiCircle(5);
 		s.setcolour("black");
 		s.setborderwidth(50);
 		
