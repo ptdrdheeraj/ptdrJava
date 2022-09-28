@@ -1,6 +1,8 @@
 package com.Basic.Oop.constructor;
 
-public class Account1 {
+import com.Basic.Exception.LoginException;
+
+public class Account1  {
 	private String number;
 	private String accounttype;
 	private double balance;
@@ -52,10 +54,13 @@ public class Account1 {
     	
 	}
 
-	public void Withdrawal(double amount) {
-		
-		  balance = balance - amount;
-		System.out.println("withdrawal successfull and balance is  "+ amount);
+	public void Withdrawal(double amount) throws LoginException, AccountException {
+		if((balance - amount) < 500 ) {
+			AccountException e = new AccountException();
+			throw e;
+		}
+		  
+		  else{System.out.println("withdrawal successfull  ");}
 			
 		}
 	
