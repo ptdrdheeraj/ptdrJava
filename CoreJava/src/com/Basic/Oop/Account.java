@@ -29,13 +29,23 @@ public class Account {
     setBalance(getBalance()+ deposit);	
 	}
 	public void FundTransfer(double fundtransfer) {
+		if(getBalance() -fundtransfer >0) {
 	setBalance(getBalance()-fundtransfer);
+	System.out.println("Trans.succesfull and Remaining Balance "+getBalance());
+	}
+		else {System.out.println("Not sufficient balance ");}
 	}
 	public void Withdrawal(double Withdrawal) {
-	setBalance(getBalance()-Withdrawal);	
+		if(getBalance() -Withdrawal >0) {
+	setBalance(getBalance()-Withdrawal);
+	System.out.println("Trans.succesfull and Remaining Balance "+getBalance());}
+		else {System.out.println("Not sufficient balance ");}
 	}
 	public void Paybill(double paybill) {
-	setBalance(getBalance()- paybill);	
+		if(getBalance()-paybill >0) {
+	setBalance(getBalance()- paybill);
+	System.out.println("Trans.succesfull and Remaining Balance "+getBalance());}
+		else {System.out.println("Not sufficient balance ");}
 	}
 	
 	

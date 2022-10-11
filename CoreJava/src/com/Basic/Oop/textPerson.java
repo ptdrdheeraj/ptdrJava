@@ -42,25 +42,19 @@ public class textPerson {
 		System.out.println("Account Balance is >> " +s2);
 		
 		n.Deposit(1000.00);
-		n.setBalance(n.getBalance());
-		double s3 = n.getBalance();
-		System.out.println(s3);
-		
+		System.out.println("deposit successfull and new balance "+n.getBalance());
 		
 		n.FundTransfer(1500.00);
-		n.setBalance(n.getBalance());
-		double s4 = n.getBalance();
-		System.out.println(s4);
 		
 	    n.Withdrawal(2000.00);
-		n.setBalance(n.getBalance());
-		double s5 = n.getBalance();
-		System.out.println(s5);
+		//n.setBalance(n.getBalance());
+		//double s5 = n.getBalance();
+		//System.out.println("Remaining Balance "+s5);
 	 
-		n.Paybill(1087.50);
-		n.setBalance(n.getBalance());
-		double s6 = n.getBalance();
-		System.out.println(s6);
+		n.Paybill(400.50);
+		//n.setBalance(n.getBalance());
+		//double s6 = n.getBalance();
+		//System.out.println(s6);
 		
 	    //Automobile a = new Automobile();
 		

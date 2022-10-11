@@ -8,9 +8,11 @@ import java.util.Date;
 public class person1 {
 	
 	
+	
 	private String name;
 	private Date dob;
 	private String address;
+	private String OtherDob;
 	private int Age;
 	
 	public person1() {
@@ -32,10 +34,10 @@ public class person1 {
 	public person1(String name) {
 		this.name = name;
 	}
-	public person1(String name,String address,Date dob,int Age) {
+	public person1(String name,String address,String OtherDob,int Age) {
 		this.name = name;
 		this.address = address;
-		this.dob = dob;
+		this.OtherDob = OtherDob;
 		this.Age = Age;
 	}
 	
@@ -52,6 +54,11 @@ public class person1 {
 
 	public int getAge() {
 		return Age;
+	}
+
+	public String getOtherDob() {
+		
+		return OtherDob;
 	}
 
 	
